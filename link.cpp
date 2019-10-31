@@ -4,7 +4,7 @@
 
 #ifndef PIKA_LINK_CPP
 #define PIKA_LINK_CPP
-#include "link.h"
+#include "link.hpp"
 
 template <class type>
 litp::link()
@@ -91,36 +91,39 @@ litp litp::operator[](int inpu)
     {
         if(temp->next== nullptr)
             {
-                std::cout<<"[ERRO]OUT INDEX OF THE LINK"<<std::endl;
+                std::cout<<"[ERRO]OUT INDEXS OF THE LINK"<<std::endl;
                 return *temp;
             }
         temp->head=temp->next->head;
         temp->data=temp->next->data;
         temp->next=temp->next->next;
     }
-	//std::cout << (void*)temp << std::endl;
     return *temp;
 }
 
 template <class type>
 litp* litp::ats(int inpu)
 {
-    litp*temp=new litp;
+    if(inpu==0)return this;
+    if(inpu==1)return this->next;
+    litp* temp=new litp;
     temp->next=this->next;
     temp->data=this->data;
     temp->head=this->head;
-    for(int loop=0;loop<inpu;loop++)
+    for(int loop=0;loop<inpu-1;loop++)
     {
         if(temp->next== nullptr)
         {
-            std::cout<<"[ERRO]OUT INDEX OF THE LINK"<<std::endl;
-            return temp;
+            std::cout<<"[ERRO]OUT INDEXS OF THE LINK"<<std::endl;
+            return nullptr;
         }
         temp->head=temp->next->head;
         temp->data=temp->next->data;
         temp->next=temp->next->next;
     }
-    return temp;
+    if(temp->next== nullptr)
+        std::cout<<"[ERRO]OUT INDEXS OF THE LINK"<<std::endl;
+    return temp->next;
 }
 
 template <class type>

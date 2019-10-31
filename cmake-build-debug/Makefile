@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/pika/Code/C++/PIKA
+CMAKE_SOURCE_DIR = /Users/pika/Code/C++/PIKA-CPP-Datastruct
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/pika/Code/C++/PIKA/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pika/Code/C++/PIKA/cmake-build-debug/CMakeFiles /Users/pika/Code/C++/PIKA/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles /Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pika/Code/C++/PIKA/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test1
+# Target rules for targets named PIKA_CPP_DAWT
 
 # Build rule for target.
-test1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test1
-.PHONY : test1
+PIKA_CPP_DAWT: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PIKA_CPP_DAWT
+.PHONY : PIKA_CPP_DAWT
 
 # fast build rule for target.
-test1/fast:
-	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/build
-.PHONY : test1/fast
-
-dxsl.o: dxsl.cpp.o
-
-.PHONY : dxsl.o
-
-# target to build an object file
-dxsl.cpp.o:
-	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/dxsl.cpp.o
-.PHONY : dxsl.cpp.o
-
-dxsl.i: dxsl.cpp.i
-
-.PHONY : dxsl.i
-
-# target to preprocess a source file
-dxsl.cpp.i:
-	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/dxsl.cpp.i
-.PHONY : dxsl.cpp.i
-
-dxsl.s: dxsl.cpp.s
-
-.PHONY : dxsl.s
-
-# target to generate assembly for a file
-dxsl.cpp.s:
-	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/dxsl.cpp.s
-.PHONY : dxsl.cpp.s
+PIKA_CPP_DAWT/fast:
+	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/build
+.PHONY : PIKA_CPP_DAWT/fast
 
 link.o: link.cpp.o
 
@@ -156,7 +129,7 @@ link.o: link.cpp.o
 
 # target to build an object file
 link.cpp.o:
-	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/link.cpp.o
+	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/link.cpp.o
 .PHONY : link.cpp.o
 
 link.i: link.cpp.i
@@ -165,7 +138,7 @@ link.i: link.cpp.i
 
 # target to preprocess a source file
 link.cpp.i:
-	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/link.cpp.i
+	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/link.cpp.i
 .PHONY : link.cpp.i
 
 link.s: link.cpp.s
@@ -174,7 +147,7 @@ link.s: link.cpp.s
 
 # target to generate assembly for a file
 link.cpp.s:
-	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/link.cpp.s
+	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/link.cpp.s
 .PHONY : link.cpp.s
 
 main.o: main.cpp.o
@@ -183,7 +156,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -192,7 +165,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -201,8 +174,35 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+stac.o: stac.cpp.o
+
+.PHONY : stac.o
+
+# target to build an object file
+stac.cpp.o:
+	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/stac.cpp.o
+.PHONY : stac.cpp.o
+
+stac.i: stac.cpp.i
+
+.PHONY : stac.i
+
+# target to preprocess a source file
+stac.cpp.i:
+	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/stac.cpp.i
+.PHONY : stac.cpp.i
+
+stac.s: stac.cpp.s
+
+.PHONY : stac.s
+
+# target to generate assembly for a file
+stac.cpp.s:
+	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/stac.cpp.s
+.PHONY : stac.cpp.s
 
 # Help Target
 help:
@@ -212,16 +212,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... test1"
-	@echo "... dxsl.o"
-	@echo "... dxsl.i"
-	@echo "... dxsl.s"
+	@echo "... PIKA_CPP_DAWT"
 	@echo "... link.o"
 	@echo "... link.i"
 	@echo "... link.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... stac.o"
+	@echo "... stac.i"
+	@echo "... stac.s"
 .PHONY : help
 
 

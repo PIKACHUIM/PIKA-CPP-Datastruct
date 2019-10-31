@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/pika/Code/C++/PIKA
+CMAKE_SOURCE_DIR = /Users/pika/Code/C++/PIKA-CPP-Datastruct
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/pika/Code/C++/PIKA/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test1.dir/depend.make
@@ -59,58 +59,58 @@ include CMakeFiles/test1.dir/flags.make
 
 CMakeFiles/test1.dir/main.cpp.o: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pika/Code/C++/PIKA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test1.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test1.dir/main.cpp.o -c /Users/pika/Code/C++/PIKA/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test1.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test1.dir/main.cpp.o -c /Users/pika/Code/C++/PIKA-CPP-Datastruct/main.cpp
 
 CMakeFiles/test1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test1.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pika/Code/C++/PIKA/main.cpp > CMakeFiles/test1.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pika/Code/C++/PIKA-CPP-Datastruct/main.cpp > CMakeFiles/test1.dir/main.cpp.i
 
 CMakeFiles/test1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test1.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pika/Code/C++/PIKA/main.cpp -o CMakeFiles/test1.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pika/Code/C++/PIKA-CPP-Datastruct/main.cpp -o CMakeFiles/test1.dir/main.cpp.s
 
 CMakeFiles/test1.dir/link.cpp.o: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/link.cpp.o: ../link.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pika/Code/C++/PIKA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test1.dir/link.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test1.dir/link.cpp.o -c /Users/pika/Code/C++/PIKA/link.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test1.dir/link.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test1.dir/link.cpp.o -c /Users/pika/Code/C++/PIKA-CPP-Datastruct/link.cpp
 
 CMakeFiles/test1.dir/link.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test1.dir/link.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pika/Code/C++/PIKA/link.cpp > CMakeFiles/test1.dir/link.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pika/Code/C++/PIKA-CPP-Datastruct/link.cpp > CMakeFiles/test1.dir/link.cpp.i
 
 CMakeFiles/test1.dir/link.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test1.dir/link.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pika/Code/C++/PIKA/link.cpp -o CMakeFiles/test1.dir/link.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pika/Code/C++/PIKA-CPP-Datastruct/link.cpp -o CMakeFiles/test1.dir/link.cpp.s
 
-CMakeFiles/test1.dir/dxsl.cpp.o: CMakeFiles/test1.dir/flags.make
-CMakeFiles/test1.dir/dxsl.cpp.o: ../dxsl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pika/Code/C++/PIKA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test1.dir/dxsl.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test1.dir/dxsl.cpp.o -c /Users/pika/Code/C++/PIKA/dxsl.cpp
+CMakeFiles/test1.dir/fifo.cpp.o: CMakeFiles/test1.dir/flags.make
+CMakeFiles/test1.dir/fifo.cpp.o: ../fifo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test1.dir/fifo.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test1.dir/fifo.cpp.o -c /Users/pika/Code/C++/PIKA-CPP-Datastruct/fifo.cpp
 
-CMakeFiles/test1.dir/dxsl.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test1.dir/dxsl.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pika/Code/C++/PIKA/dxsl.cpp > CMakeFiles/test1.dir/dxsl.cpp.i
+CMakeFiles/test1.dir/fifo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test1.dir/fifo.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pika/Code/C++/PIKA-CPP-Datastruct/fifo.cpp > CMakeFiles/test1.dir/fifo.cpp.i
 
-CMakeFiles/test1.dir/dxsl.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test1.dir/dxsl.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pika/Code/C++/PIKA/dxsl.cpp -o CMakeFiles/test1.dir/dxsl.cpp.s
+CMakeFiles/test1.dir/fifo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test1.dir/fifo.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pika/Code/C++/PIKA-CPP-Datastruct/fifo.cpp -o CMakeFiles/test1.dir/fifo.cpp.s
 
 # Object files for target test1
 test1_OBJECTS = \
 "CMakeFiles/test1.dir/main.cpp.o" \
 "CMakeFiles/test1.dir/link.cpp.o" \
-"CMakeFiles/test1.dir/dxsl.cpp.o"
+"CMakeFiles/test1.dir/fifo.cpp.o"
 
 # External object files for target test1
 test1_EXTERNAL_OBJECTS =
 
 test1: CMakeFiles/test1.dir/main.cpp.o
 test1: CMakeFiles/test1.dir/link.cpp.o
-test1: CMakeFiles/test1.dir/dxsl.cpp.o
+test1: CMakeFiles/test1.dir/fifo.cpp.o
 test1: CMakeFiles/test1.dir/build.make
 test1: CMakeFiles/test1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/pika/Code/C++/PIKA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable test1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable test1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/test1.dir/clean:
 .PHONY : CMakeFiles/test1.dir/clean
 
 CMakeFiles/test1.dir/depend:
-	cd /Users/pika/Code/C++/PIKA/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/pika/Code/C++/PIKA /Users/pika/Code/C++/PIKA /Users/pika/Code/C++/PIKA/cmake-build-debug /Users/pika/Code/C++/PIKA/cmake-build-debug /Users/pika/Code/C++/PIKA/cmake-build-debug/CMakeFiles/test1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/pika/Code/C++/PIKA-CPP-Datastruct /Users/pika/Code/C++/PIKA-CPP-Datastruct /Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug /Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug /Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles/test1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test1.dir/depend
 

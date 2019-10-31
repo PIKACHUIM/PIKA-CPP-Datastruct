@@ -2,8 +2,8 @@
 // Created by 皮卡丘 on 2019/10/17.
 //     任浩龙 2018141461344
 
-#ifndef PIKA_LINK_H
-#define PIKA_LINK_H
+#ifndef PIKA_LINK_HPP
+#define PIKA_LINK_HPP
 
 #define litp link<type>
 #include <iostream>
@@ -36,6 +36,7 @@ public:
 #endif
 
 /*-------------------------DEMO-------------------------
+    #include "link.hpp"
     link<int>a;            //无值创建
     link<int>b(1);         //有值创建
     a=b;                   //重载等号
@@ -48,5 +49,7 @@ public:
     a=a+b;                 //重载加号
     cout<<a.len()<<endl;   //输出长度
     cout<<a.fid(3)<<endl;  //查找数据
+    cout<<a.fin(3)<<endl;  //查找地址
+    cout<<a.fin(3)->data;  //查找数据
     cout<<a.fin(3)<<endl;  //查找数据
 -------------------------DEMO-------------------------*/

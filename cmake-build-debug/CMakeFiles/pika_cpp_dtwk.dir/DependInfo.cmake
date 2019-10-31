@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/pika/Code/C++/PIKA-CPP-Datastruct/fifo.cpp" "/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles/test1.dir/fifo.cpp.o"
-  "/Users/pika/Code/C++/PIKA-CPP-Datastruct/link.cpp" "/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles/test1.dir/link.cpp.o"
-  "/Users/pika/Code/C++/PIKA-CPP-Datastruct/main.cpp" "/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles/test1.dir/main.cpp.o"
+  "/Users/pika/Code/C++/PIKA-CPP-Datastruct/fifo.cpp" "/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles/pika_cpp_dtwk.dir/fifo.cpp.o"
+  "/Users/pika/Code/C++/PIKA-CPP-Datastruct/link.cpp" "/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles/pika_cpp_dtwk.dir/link.cpp.o"
+  "/Users/pika/Code/C++/PIKA-CPP-Datastruct/main.cpp" "/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles/pika_cpp_dtwk.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

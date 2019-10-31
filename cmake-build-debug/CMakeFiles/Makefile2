@@ -59,45 +59,45 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/pika/Code/C++/PIKA
+CMAKE_SOURCE_DIR = /Users/pika/Code/C++/PIKA-CPP-Datastruct
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/pika/Code/C++/PIKA/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/test1.dir
+# Target rules for target CMakeFiles/PIKA_CPP_DAWT.dir
 
 # All Build rule for target.
-CMakeFiles/test1.dir/all:
-	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/depend
-	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/pika/Code/C++/PIKA/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target test1"
-.PHONY : CMakeFiles/test1.dir/all
+CMakeFiles/PIKA_CPP_DAWT.dir/all:
+	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/depend
+	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target PIKA_CPP_DAWT"
+.PHONY : CMakeFiles/PIKA_CPP_DAWT.dir/all
 
 # Include target in all.
-all: CMakeFiles/test1.dir/all
+all: CMakeFiles/PIKA_CPP_DAWT.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/test1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pika/Code/C++/PIKA/cmake-build-debug/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pika/Code/C++/PIKA/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/test1.dir/rule
+CMakeFiles/PIKA_CPP_DAWT.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/PIKA_CPP_DAWT.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/PIKA_CPP_DAWT.dir/rule
 
 # Convenience name for target.
-test1: CMakeFiles/test1.dir/rule
+PIKA_CPP_DAWT: CMakeFiles/PIKA_CPP_DAWT.dir/rule
 
-.PHONY : test1
-
-# clean rule for target.
-CMakeFiles/test1.dir/clean:
-	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/clean
-.PHONY : CMakeFiles/test1.dir/clean
+.PHONY : PIKA_CPP_DAWT
 
 # clean rule for target.
-clean: CMakeFiles/test1.dir/clean
+CMakeFiles/PIKA_CPP_DAWT.dir/clean:
+	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/clean
+.PHONY : CMakeFiles/PIKA_CPP_DAWT.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/PIKA_CPP_DAWT.dir/clean
 
 .PHONY : clean
 

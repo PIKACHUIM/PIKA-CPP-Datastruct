@@ -3,7 +3,7 @@
 //
 #ifndef PIKA_DXSL_CPP
 #define PIKA_DXSL_CPP
-#include "dxsl.h"
+#include "dxsl.hpp"
 dxsl::dxsl() {
     lens=1;
     data.next= nullptr;

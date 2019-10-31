@@ -4,7 +4,7 @@
 
 #ifndef PIKA_DXSL_H
 #define PIKA_DXSL_H
-#include "link.cpp"
+#include "../link.cpp"
 #define  lids link<dxsb>
 class dxsb
 {

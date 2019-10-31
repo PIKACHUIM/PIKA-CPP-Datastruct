@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/pika/Code/C++/PIKA-CPP-Datastruct/link.cpp
-link.h
-/Users/pika/Code/C++/PIKA-CPP-Datastruct/link.h
+/Users/pika/Code/C++/PIKA-CPP-Datastruct/fifo.cpp
+fifo.hpp
+/Users/pika/Code/C++/PIKA-CPP-Datastruct/fifo.hpp
 
-/Users/pika/Code/C++/PIKA-CPP-Datastruct/link.h
+/Users/pika/Code/C++/PIKA-CPP-Datastruct/fifo.hpp
+
+/Users/pika/Code/C++/PIKA-CPP-Datastruct/link.cpp
+link.hpp
+/Users/pika/Code/C++/PIKA-CPP-Datastruct/link.hpp
+
+/Users/pika/Code/C++/PIKA-CPP-Datastruct/link.hpp
 iostream
 -
 dxsl.h

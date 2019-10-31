@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/pika/Code/C++/PIKA-CPP-Datastruct/link.cpp
+link.hpp
+/Users/pika/Code/C++/PIKA-CPP-Datastruct/link.hpp
+
+/Users/pika/Code/C++/PIKA-CPP-Datastruct/link.hpp
+iostream
+-
+link.hpp
+/Users/pika/Code/C++/PIKA-CPP-Datastruct/link.hpp
+
+/Users/pika/Code/C++/PIKA-CPP-Datastruct/main.cpp
+iostream
+-
+stac.cpp
+/Users/pika/Code/C++/PIKA-CPP-Datastruct/stac.cpp
+
+/Users/pika/Code/C++/PIKA-CPP-Datastruct/stac.cpp
+stac.hpp
+/Users/pika/Code/C++/PIKA-CPP-Datastruct/stac.hpp
+
+/Users/pika/Code/C++/PIKA-CPP-Datastruct/stac.hpp
+link.cpp
+/Users/pika/Code/C++/PIKA-CPP-Datastruct/link.cpp
+stac.hpp
+/Users/pika/Code/C++/PIKA-CPP-Datastruct/stac.hpp
+

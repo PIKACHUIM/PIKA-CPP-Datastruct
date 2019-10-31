@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/pika/Code/C++/PIKA/cmake-build-debug"/>
+				<Option working_dir="/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/pika/Code/C++/PIKA/cmake-build-debug"/>
+				<Option working_dir="/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/pika/Code/C++/PIKA/cmake-build-debug"/>
+				<Option working_dir="/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="test1">
-				<Option output="/Users/pika/Code/C++/PIKA/cmake-build-debug/test1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/pika/Code/C++/PIKA/cmake-build-debug"/>
+			<Target title="PIKA_CPP_DAWT">
+				<Option output="/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/PIKA_CPP_DAWT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,15 +51,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA/cmake-build-debug/Makefile&quot;  VERBOSE=1 test1"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 PIKA_CPP_DAWT"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="test1/fast">
-				<Option output="/Users/pika/Code/C++/PIKA/cmake-build-debug/test1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/pika/Code/C++/PIKA/cmake-build-debug"/>
+			<Target title="PIKA_CPP_DAWT/fast">
+				<Option output="/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/PIKA_CPP_DAWT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -71,29 +71,29 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA/cmake-build-debug/Makefile&quot;  VERBOSE=1 test1/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 PIKA_CPP_DAWT/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/pika/Code/C++/PIKA/dxsl.cpp">
-			<Option target="test1"/>
+		<Unit filename="/Users/pika/Code/C++/PIKA-CPP-Datastruct/link.cpp">
+			<Option target="PIKA_CPP_DAWT"/>
 		</Unit>
-		<Unit filename="/Users/pika/Code/C++/PIKA/dxsl.h">
-			<Option target="test1"/>
+		<Unit filename="/Users/pika/Code/C++/PIKA-CPP-Datastruct/link.hpp">
+			<Option target="PIKA_CPP_DAWT"/>
 		</Unit>
-		<Unit filename="/Users/pika/Code/C++/PIKA/link.cpp">
-			<Option target="test1"/>
+		<Unit filename="/Users/pika/Code/C++/PIKA-CPP-Datastruct/main.cpp">
+			<Option target="PIKA_CPP_DAWT"/>
 		</Unit>
-		<Unit filename="/Users/pika/Code/C++/PIKA/link.h">
-			<Option target="test1"/>
+		<Unit filename="/Users/pika/Code/C++/PIKA-CPP-Datastruct/stac.cpp">
+			<Option target="PIKA_CPP_DAWT"/>
 		</Unit>
-		<Unit filename="/Users/pika/Code/C++/PIKA/main.cpp">
-			<Option target="test1"/>
+		<Unit filename="/Users/pika/Code/C++/PIKA-CPP-Datastruct/stac.hpp">
+			<Option target="PIKA_CPP_DAWT"/>
 		</Unit>
-		<Unit filename="/Users/pika/Code/C++/PIKA/CMakeLists.txt">
+		<Unit filename="/Users/pika/Code/C++/PIKA-CPP-Datastruct/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
