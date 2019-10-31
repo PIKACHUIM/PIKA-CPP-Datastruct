@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/pika/Code/C++/PIKA/dxsl.cpp
+dxsl.h
+/Users/pika/Code/C++/PIKA/dxsl.h
+
+/Users/pika/Code/C++/PIKA/dxsl.h
+link.cpp
+/Users/pika/Code/C++/PIKA/link.cpp
+
+/Users/pika/Code/C++/PIKA/link.cpp
+link.h
+/Users/pika/Code/C++/PIKA/link.h
+
+/Users/pika/Code/C++/PIKA/link.h
+iostream
+-
+
