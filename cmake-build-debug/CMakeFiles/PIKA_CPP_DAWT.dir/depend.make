@@ -4,11 +4,7 @@
 CMakeFiles/PIKA_CPP_DAWT.dir/link.cpp.o: ../link.cpp
 CMakeFiles/PIKA_CPP_DAWT.dir/link.cpp.o: ../link.hpp
 
-CMakeFiles/PIKA_CPP_DAWT.dir/main.cpp.o: ../link.cpp
-CMakeFiles/PIKA_CPP_DAWT.dir/main.cpp.o: ../link.hpp
 CMakeFiles/PIKA_CPP_DAWT.dir/main.cpp.o: ../main.cpp
-CMakeFiles/PIKA_CPP_DAWT.dir/main.cpp.o: ../stac.cpp
-CMakeFiles/PIKA_CPP_DAWT.dir/main.cpp.o: ../stac.hpp
 
 CMakeFiles/PIKA_CPP_DAWT.dir/stac.cpp.o: ../link.cpp
 CMakeFiles/PIKA_CPP_DAWT.dir/stac.cpp.o: ../link.hpp
