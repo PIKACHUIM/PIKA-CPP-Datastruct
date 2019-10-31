@@ -21,7 +21,7 @@ public:
 #endif
 
 /*-------------------------DEMO-------------------------
- * //#include "dxsa.cpp"
+	#include "dxsa.cpp"
     dxsa   dxs1[16];
     dxsa   dxs2[16];
     cout<<" 请输入第1个多项式项数：";

@@ -20,7 +20,9 @@ dxsl dxsl::addc(dxsb inpu) {
     lens++;
     return *this;
 }
-
+void dxsl::sets(dxsb inpt) {
+	this->data[0].data = inpt;
+}
 dxsl dxsl::adds(dxsl inpt) {
     int this_lens=this->data.len();
     int inpt_lens=inpt.data.len();
@@ -29,11 +31,15 @@ dxsl dxsl::adds(dxsl inpt) {
         int inde=this->data.fid(inpt.data[loop-1].data);
         if(inde==-1)
         {
-            lens++;
             this->addc(inpt.data[loop-1].data);
         }
-        else
-            this->data[inde].data+=inpt.data[loop-1].data;
+		else
+		{
+			dxsb* writ = new dxsb();
+			writ->xs = inpt.data[loop - 1].data.xs;
+			writ->zs = inpt.data[loop - 1].data.xs;
+			this->data.ats(inde-1)->next->data.xs+=writ->xs;
+		}
     }
     return *this;
 }
@@ -43,19 +49,23 @@ void dxsl::show() {
     {
         if(data[loop-1].data.xs==0)continue;
         else flag= false;
-        std::cout<<data[loop-1].data.xs<<"X^"<<data[loop-1].data.zs;
-        if(loop<lens)std::cout<<"+";
+		std::cout << data[loop - 1].data.xs;
+		if(data[loop - 1].data.zs !=0)
+			std::cout<< "X^" << data[loop - 1].data.zs;
+        if(loop<lens-1)
+			std::cout<<"+";
     }
     if(flag== true)
         std::cout<<"0";
         std::cout<<std::endl;
 }
 dxsl dxsl::subs(dxsl inpu) {
-    for(int loop=1;loop<=inpu.lens;loop++)
+    for(int loop=1;loop<=inpu.lens-1;loop++)
     {
-        inpu.data[loop-1].data.sets((-1)*inpu.data[loop-1].data.xs,inpu.data[loop-1].data.zs);
+        inpu.data.ats(loop-1)->data.sets((-1)*inpu.data.ats(loop - 1)->data.xs,inpu.data.ats(loop - 1)->data.zs);
     }
-
+	this->adds(inpu);
+	this->lens--;
     return *this;
 }
 

@@ -11,16 +11,17 @@ template <class type>
 class link
 {
 public:
-    bool  head; //判断开头
-    type  data; //存储数据
-    litp* next; //存储地址
-    link();     //构造函数
-    link(type); //带参构造
+    bool  head;     //判断开头
+    type  data;     //存储数据
+    litp* next;     //存储地址
+    link();         //构造函数
+    link(type);     //带参构造
     int  len();     //获取长度
     int  fid(type );//查找数据
     litp*fin(type );//查找数据
     litp*ats(int  );//寻址操作
-    void set(litp*);
+    void set(litp*);//更改内容
+	void set(type*);//更改内容
     litp add(type );//插入链表
     litp add(litp );//带参插入
     litp add();     //插入节点
@@ -32,7 +33,7 @@ public:
     litp operator= (litp);//赋值操作
     litp operator +(litp);//增加操作
 };
-#endif //TEST1_LINK_HPP
+#endif
 
 /*-------------------------DEMO-------------------------
     link<int>a;            //无值创建

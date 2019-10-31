@@ -1,21 +1,25 @@
 //         实现基本链表
 // Created by 皮卡丘 on 2019/10/17.
 //     任浩龙 2018141461344
+
 #ifndef PIKA_LINK_CPP
 #define PIKA_LINK_CPP
 #include "link.h"
+
 template <class type>
 litp::link()
 {
     head= true;
     next= nullptr;
 }
+
 template <class type>
 litp::link(type inpt)
 {
     link();
     this->data=inpt;
 }
+
 template <class type>
 litp litp::add()
 {
@@ -25,6 +29,7 @@ litp litp::add()
     this->next=temp;
     return *this;
 }
+
 template <class type>
 litp litp::add(type inpt)
 {
@@ -35,8 +40,8 @@ litp litp::add(type inpt)
     this->next=temp;
     return *this;
 }
-template <class type>
 
+template <class type>
 litp litp::add(litp inpt)
 {
     litp* temp=new litp;
@@ -54,6 +59,7 @@ void litp::del()
     if(this->next== nullptr)return ;
     this->next=this->next->next;
 }
+
 template <class type>
 type litp::pop()
 {
@@ -61,6 +67,7 @@ type litp::pop()
     this->del();
     return temp;
 }
+
 template <class type>
 type litp::get()
 {
@@ -91,8 +98,10 @@ litp litp::operator[](int inpu)
         temp->data=temp->next->data;
         temp->next=temp->next->next;
     }
+	//std::cout << (void*)temp << std::endl;
     return *temp;
 }
+
 template <class type>
 litp* litp::ats(int inpu)
 {
@@ -113,6 +122,7 @@ litp* litp::ats(int inpu)
     }
     return temp;
 }
+
 template <class type>
 litp litp::operator =(litp inpu)
 {
@@ -143,6 +153,7 @@ litp litp::operator +(litp inpu)
     temp->add(inpu);
     return *temp;
 }
+
 template <class type>
 int litp::fid(type inpt)
 {
@@ -159,6 +170,7 @@ int litp::fid(type inpt)
         temp->next=temp->next->next;
     }
 }
+
 template <class type>
 litp* litp::fin(type inpt)
 {
@@ -174,8 +186,13 @@ litp* litp::fin(type inpt)
     }
     return nullptr;
 }
+
 template <class type>
 void litp::set(link<type>* inpu) {
     this->next=inpu;
+}
+template <class type>
+void litp::set(type* inpu) {
+	this->data = *inpu;
 }
 #endif
