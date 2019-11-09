@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PIKA_CPP_DAWT.dir/main.cpp.o"
-  "CMakeFiles/PIKA_CPP_DAWT.dir/link.cpp.o"
-  "CMakeFiles/PIKA_CPP_DAWT.dir/stac.cpp.o"
+  "CMakeFiles/PIKA_CPP_DAWT.dir/strs.cpp.o"
   "PIKA_CPP_DAWT.pdb"
   "PIKA_CPP_DAWT"
 )

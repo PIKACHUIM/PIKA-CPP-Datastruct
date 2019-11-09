@@ -70,47 +70,32 @@ CMakeFiles/PIKA_CPP_DAWT.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PIKA_CPP_DAWT.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pika/Code/C++/PIKA-CPP-Datastruct/main.cpp -o CMakeFiles/PIKA_CPP_DAWT.dir/main.cpp.s
 
-CMakeFiles/PIKA_CPP_DAWT.dir/link.cpp.o: CMakeFiles/PIKA_CPP_DAWT.dir/flags.make
-CMakeFiles/PIKA_CPP_DAWT.dir/link.cpp.o: ../link.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PIKA_CPP_DAWT.dir/link.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PIKA_CPP_DAWT.dir/link.cpp.o -c /Users/pika/Code/C++/PIKA-CPP-Datastruct/link.cpp
+CMakeFiles/PIKA_CPP_DAWT.dir/strs.cpp.o: CMakeFiles/PIKA_CPP_DAWT.dir/flags.make
+CMakeFiles/PIKA_CPP_DAWT.dir/strs.cpp.o: ../strs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PIKA_CPP_DAWT.dir/strs.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PIKA_CPP_DAWT.dir/strs.cpp.o -c /Users/pika/Code/C++/PIKA-CPP-Datastruct/strs.cpp
 
-CMakeFiles/PIKA_CPP_DAWT.dir/link.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PIKA_CPP_DAWT.dir/link.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pika/Code/C++/PIKA-CPP-Datastruct/link.cpp > CMakeFiles/PIKA_CPP_DAWT.dir/link.cpp.i
+CMakeFiles/PIKA_CPP_DAWT.dir/strs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PIKA_CPP_DAWT.dir/strs.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pika/Code/C++/PIKA-CPP-Datastruct/strs.cpp > CMakeFiles/PIKA_CPP_DAWT.dir/strs.cpp.i
 
-CMakeFiles/PIKA_CPP_DAWT.dir/link.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PIKA_CPP_DAWT.dir/link.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pika/Code/C++/PIKA-CPP-Datastruct/link.cpp -o CMakeFiles/PIKA_CPP_DAWT.dir/link.cpp.s
-
-CMakeFiles/PIKA_CPP_DAWT.dir/stac.cpp.o: CMakeFiles/PIKA_CPP_DAWT.dir/flags.make
-CMakeFiles/PIKA_CPP_DAWT.dir/stac.cpp.o: ../stac.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PIKA_CPP_DAWT.dir/stac.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PIKA_CPP_DAWT.dir/stac.cpp.o -c /Users/pika/Code/C++/PIKA-CPP-Datastruct/stac.cpp
-
-CMakeFiles/PIKA_CPP_DAWT.dir/stac.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PIKA_CPP_DAWT.dir/stac.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pika/Code/C++/PIKA-CPP-Datastruct/stac.cpp > CMakeFiles/PIKA_CPP_DAWT.dir/stac.cpp.i
-
-CMakeFiles/PIKA_CPP_DAWT.dir/stac.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PIKA_CPP_DAWT.dir/stac.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pika/Code/C++/PIKA-CPP-Datastruct/stac.cpp -o CMakeFiles/PIKA_CPP_DAWT.dir/stac.cpp.s
+CMakeFiles/PIKA_CPP_DAWT.dir/strs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PIKA_CPP_DAWT.dir/strs.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pika/Code/C++/PIKA-CPP-Datastruct/strs.cpp -o CMakeFiles/PIKA_CPP_DAWT.dir/strs.cpp.s
 
 # Object files for target PIKA_CPP_DAWT
 PIKA_CPP_DAWT_OBJECTS = \
 "CMakeFiles/PIKA_CPP_DAWT.dir/main.cpp.o" \
-"CMakeFiles/PIKA_CPP_DAWT.dir/link.cpp.o" \
-"CMakeFiles/PIKA_CPP_DAWT.dir/stac.cpp.o"
+"CMakeFiles/PIKA_CPP_DAWT.dir/strs.cpp.o"
 
 # External object files for target PIKA_CPP_DAWT
 PIKA_CPP_DAWT_EXTERNAL_OBJECTS =
 
 PIKA_CPP_DAWT: CMakeFiles/PIKA_CPP_DAWT.dir/main.cpp.o
-PIKA_CPP_DAWT: CMakeFiles/PIKA_CPP_DAWT.dir/link.cpp.o
-PIKA_CPP_DAWT: CMakeFiles/PIKA_CPP_DAWT.dir/stac.cpp.o
+PIKA_CPP_DAWT: CMakeFiles/PIKA_CPP_DAWT.dir/strs.cpp.o
 PIKA_CPP_DAWT: CMakeFiles/PIKA_CPP_DAWT.dir/build.make
 PIKA_CPP_DAWT: CMakeFiles/PIKA_CPP_DAWT.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable PIKA_CPP_DAWT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/pika/Code/C++/PIKA-CPP-Datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable PIKA_CPP_DAWT"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PIKA_CPP_DAWT.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

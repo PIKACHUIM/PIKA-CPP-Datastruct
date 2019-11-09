@@ -78,19 +78,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/pika/Code/C++/PIKA-CPP-Datastruct/link.cpp">
-			<Option target="PIKA_CPP_DAWT"/>
-		</Unit>
-		<Unit filename="/Users/pika/Code/C++/PIKA-CPP-Datastruct/link.hpp">
-			<Option target="PIKA_CPP_DAWT"/>
-		</Unit>
 		<Unit filename="/Users/pika/Code/C++/PIKA-CPP-Datastruct/main.cpp">
 			<Option target="PIKA_CPP_DAWT"/>
 		</Unit>
-		<Unit filename="/Users/pika/Code/C++/PIKA-CPP-Datastruct/stac.cpp">
+		<Unit filename="/Users/pika/Code/C++/PIKA-CPP-Datastruct/strs.cpp">
 			<Option target="PIKA_CPP_DAWT"/>
 		</Unit>
-		<Unit filename="/Users/pika/Code/C++/PIKA-CPP-Datastruct/stac.hpp">
+		<Unit filename="/Users/pika/Code/C++/PIKA-CPP-Datastruct/strs.hpp">
 			<Option target="PIKA_CPP_DAWT"/>
 		</Unit>
 		<Unit filename="/Users/pika/Code/C++/PIKA-CPP-Datastruct/CMakeLists.txt">

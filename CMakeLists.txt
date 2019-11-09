@@ -3,4 +3,4 @@ project(PIKA)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(PIKA_CPP_DAWT main.cpp link.cpp link.hpp stac.cpp stac.hpp)
+add_executable(PIKA_CPP_DAWT main.cpp strs.cpp strs.hpp)

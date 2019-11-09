@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/pika/Code/C++/PIKA-CPP-Datastruct/main.cpp
-iostream
--
+/Users/pika/Code/C++/PIKA-CPP-Datastruct/strs.cpp
+strs.hpp
+/Users/pika/Code/C++/PIKA-CPP-Datastruct/strs.hpp
+
+/Users/pika/Code/C++/PIKA-CPP-Datastruct/strs.hpp
 string
 -
-math.h
+iostream
 -
 

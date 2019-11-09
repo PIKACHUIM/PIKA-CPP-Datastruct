@@ -123,33 +123,6 @@ PIKA_CPP_DAWT/fast:
 	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/build
 .PHONY : PIKA_CPP_DAWT/fast
 
-link.o: link.cpp.o
-
-.PHONY : link.o
-
-# target to build an object file
-link.cpp.o:
-	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/link.cpp.o
-.PHONY : link.cpp.o
-
-link.i: link.cpp.i
-
-.PHONY : link.i
-
-# target to preprocess a source file
-link.cpp.i:
-	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/link.cpp.i
-.PHONY : link.cpp.i
-
-link.s: link.cpp.s
-
-.PHONY : link.s
-
-# target to generate assembly for a file
-link.cpp.s:
-	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/link.cpp.s
-.PHONY : link.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -177,32 +150,32 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-stac.o: stac.cpp.o
+strs.o: strs.cpp.o
 
-.PHONY : stac.o
+.PHONY : strs.o
 
 # target to build an object file
-stac.cpp.o:
-	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/stac.cpp.o
-.PHONY : stac.cpp.o
+strs.cpp.o:
+	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/strs.cpp.o
+.PHONY : strs.cpp.o
 
-stac.i: stac.cpp.i
+strs.i: strs.cpp.i
 
-.PHONY : stac.i
+.PHONY : strs.i
 
 # target to preprocess a source file
-stac.cpp.i:
-	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/stac.cpp.i
-.PHONY : stac.cpp.i
+strs.cpp.i:
+	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/strs.cpp.i
+.PHONY : strs.cpp.i
 
-stac.s: stac.cpp.s
+strs.s: strs.cpp.s
 
-.PHONY : stac.s
+.PHONY : strs.s
 
 # target to generate assembly for a file
-stac.cpp.s:
-	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/stac.cpp.s
-.PHONY : stac.cpp.s
+strs.cpp.s:
+	$(MAKE) -f CMakeFiles/PIKA_CPP_DAWT.dir/build.make CMakeFiles/PIKA_CPP_DAWT.dir/strs.cpp.s
+.PHONY : strs.cpp.s
 
 # Help Target
 help:
@@ -213,15 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... PIKA_CPP_DAWT"
-	@echo "... link.o"
-	@echo "... link.i"
-	@echo "... link.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... stac.o"
-	@echo "... stac.i"
-	@echo "... stac.s"
+	@echo "... strs.o"
+	@echo "... strs.i"
+	@echo "... strs.s"
 .PHONY : help
 
 

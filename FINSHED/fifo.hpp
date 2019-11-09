@@ -12,13 +12,13 @@
 template <class type>
 class fifo {
 public:
-    uint lens;
-    litp data;
-         fifo();
-         fifo(type);
-    void push(type);
-    type pops();
-    uint getl();
+    uint lens;      //存储长度
+    litp data;      //存储数据
+         fifo();    //构造空队
+         fifo(type);//带参构造
+    void push(type);//入队操作
+    type pops();    //出队操作
+    uint getl();    //获取长度
 };
 
 #endif //PIKA_FIFO_HPP
