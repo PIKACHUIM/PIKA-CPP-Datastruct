@@ -15,28 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\dxsa.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\dxsl.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\link.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="..\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sysz.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="szlb.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\dxsa.hpp">
+    <ClInclude Include="..\sysz.h">
       <Filter>源文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\dxsl.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\link.h">
-      <Filter>源文件</Filter>
+    <ClInclude Include="szlb.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -19,15 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\dxsa.cpp" />
-    <ClCompile Include="..\dxsl.cpp" />
-    <ClCompile Include="..\link.cpp" />
     <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\sysz.cpp" />
+    <ClCompile Include="szlb.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\dxsa.hpp" />
-    <ClInclude Include="..\dxsl.h" />
-    <ClInclude Include="..\link.h" />
+    <ClInclude Include="..\sysz.h" />
+    <ClInclude Include="szlb.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
