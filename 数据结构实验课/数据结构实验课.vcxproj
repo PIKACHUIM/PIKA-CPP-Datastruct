@@ -20,12 +20,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\main.cpp" />
-    <ClCompile Include="..\sysz.cpp" />
-    <ClCompile Include="szlb.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\sysz.h" />
-    <ClInclude Include="szlb.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

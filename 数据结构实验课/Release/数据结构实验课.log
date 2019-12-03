@@ -1,20 +1,7 @@
 ﻿  main.cpp
-E:\~CPP\PIKA-CPP-Datastruct\sysz.h(22,2): warning C4018:  “<”: 有符号/无符号不匹配
-E:\~CPP\PIKA-CPP-Datastruct\sysz.h(17): message :  在编译 类 模板 成员函数“sysz<int>::sysz(unsigned int,unsigned int,type [][10])”时
-E:\~CPP\PIKA-CPP-Datastruct\sysz.h(17): message :         with
-E:\~CPP\PIKA-CPP-Datastruct\sysz.h(17): message :         [
-E:\~CPP\PIKA-CPP-Datastruct\sysz.h(17): message :             type=int
-E:\~CPP\PIKA-CPP-Datastruct\sysz.h(17): message :         ]
-E:\~CPP\PIKA-CPP-Datastruct\main.cpp(20): message :  查看对正在编译的函数 模板 实例化“sysz<int>::sysz(unsigned int,unsigned int,type [][10])”的引用
-E:\~CPP\PIKA-CPP-Datastruct\main.cpp(20): message :         with
-E:\~CPP\PIKA-CPP-Datastruct\main.cpp(20): message :         [
-E:\~CPP\PIKA-CPP-Datastruct\main.cpp(20): message :             type=int
-E:\~CPP\PIKA-CPP-Datastruct\main.cpp(20): message :         ]
-E:\~CPP\PIKA-CPP-Datastruct\main.cpp(20): message :  查看对正在编译的 类 模板 实例化“sysz<int>”的引用
-  sysz.cpp
-E:\~CPP\PIKA-CPP-Datastruct\sysz.h(23,2): warning C4018:  “<”: 有符号/无符号不匹配
   正在生成代码
-  Previous IPDB not found, fall back to full compilation.
-  All 14 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  7 of 18 functions (38.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
   数据结构实验课.vcxproj -> E:\~CPP\PIKA-CPP-Datastruct\数据结构实验课\Release\数据结构实验课.exe

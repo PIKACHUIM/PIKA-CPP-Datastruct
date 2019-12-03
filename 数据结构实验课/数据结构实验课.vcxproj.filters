@@ -18,19 +18,5 @@
     <ClCompile Include="..\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\sysz.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="szlb.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\sysz.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="szlb.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
